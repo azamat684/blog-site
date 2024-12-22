@@ -1,2 +1,2 @@
 # blog-site
-personal web page
+azaspeaks.uz soon
