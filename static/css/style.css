@@ -2,6 +2,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
 }
 
 /* body .navbar {
@@ -19,7 +20,7 @@ body {
 
 .navbar a {
     text-decoration: none;
-    color: black;
+    color: rgb(0, 0, 0);
     font-weight: bold;
     font-size: 22px;
     margin: 0 20px;
@@ -34,7 +35,7 @@ body {
     text-align: center;
     margin-top: 10%;
     margin-bottom: auto;
-    color: black;
+    color: rgb(0, 0, 0);
 }
 
 

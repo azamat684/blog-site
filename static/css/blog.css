@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #222;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.blog-list {
+    flex: 2;
+}
+
+.blog-list .year {
+    margin-bottom: 40px;
+}
+
+.blog-list .year h2 {
+    font-size: 28px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.blog-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.blog-list ul li {
+    margin-bottom: 15px;
+}
+
+.blog-list ul li .date {
+    color: #888;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.blog-list ul li a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.blog-list ul li a:hover {
+    text-decoration: underline;
+}
+
+.sidebar {
+    flex: 1;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.sidebar h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #222;
+}
+
+.sidebar p {
+    font-size: 14px;
+    color: #555;
+}
+
+.sidebar a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.sidebar a:hover {
+    text-decoration: underline;
+}

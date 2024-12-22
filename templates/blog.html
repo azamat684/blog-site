@@ -1,0 +1,51 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+
+{% block content %} 
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Azamat's Blog</title>
+    <link rel="stylesheet" href="{% static 'css/blog.css' %}">
+</head>
+
+
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Azamat's Blog</h1>
+        </header>
+
+        <div class="content">
+            <div class="blog-list">
+                <div class="year">
+                    <h2>2024</h2>
+                    <ul>
+                        <li>
+                            <span class="date">27 August, 2024</span>
+                            kk
+                        </li>
+                        <li>
+                            <span class="date">04 July, 2024</span>
+                            kk
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="sidebar">
+                <h3>Obuna Bo'ling</h3>
+                <p>Yangi maqola, maruza va darslarimni 
+                    <a href="https://t.me/lazyprogrammer">@lazyprogrammer</a> telegram kanalimda topishingiz mumkin.
+                </p>
+            </div>
+        </div>
+    </div>
+
+</body>
+{% endblock content %}
