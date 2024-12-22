@@ -1,0 +1,62 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+<!-- <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>azaspeaks.uz</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <!-- Font Awesome CDN -->
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></head>
+    <link href='https://fonts.googleapis.com/css?family=Boogaloo' rel='stylesheet'> -->
+<!-- <body> -->
+
+
+
+{% block content %}
+<section id="main" class="main">
+
+    <div class="typing-effect" id="typing-effect"></div>
+    <script>
+        // Typing effect script
+        const text = "Azamat Dosmukhambetov"; // Text to display
+        const typingElement = document.getElementById("typing-effect");
+        let index = 0;
+
+        function typeText() {
+            if (index < text.length) {
+                typingElement.textContent += text.charAt(index);
+                index++;
+                setTimeout(typeText, 150); // Adjust typing speed (milliseconds per character)
+            }
+        }
+
+        typeText(); // Start the typing effect
+    </script>
+    <!-- Photo Container -->
+    <div class="photo-container">
+        <img src="static/images/me_1.jpg" alt="Photo 1">
+        <img src="static/images/me_2.jpg" alt="Photo 2">
+        <img src="static/images/me_3.jpg" alt="Photo 3">
+    </div>
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <p>
+                    © 2024 azaspeaks.uz
+                </p>
+            </div>
+        </div>
+    </footer>
+
+
+</section>
+
+
+
+{% endblock content %}
+<!-- Typing Effect -->
